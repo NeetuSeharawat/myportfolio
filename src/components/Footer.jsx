@@ -19,7 +19,8 @@ const Footer = () => {
     <footer>
       <p class="copy">&copy; Copyright 2023</p>
       <p class="copy">
-        &#x2661; Built with by &nbsp;
+         Built with by&#x2661;
+         &nbsp;
         <a href="https://www.linkedin.com/in/neetu-seharawat" target="_blank" style={{color: "black"}}>
           Neetu_Seharawat
         </a>
