@@ -53,14 +53,14 @@ const Projects = () => {
               loading="lazy"
               class="project-pic"
             />
-            <h3 class="project-title">MailBox</h3>
+            <h3 class="project-title">Mailbox</h3>
             <p class="project-details">
               Mail Box Client is an application where users can send and receive
               mail. Each user has their own account and users cannot access
               other users' data. Implemented GET/POST/PUT request to firebase in
               order to retrieve user specific information for each user.
             </p>
-            <a href="#" target="_blank" class="project-link">
+            <a href="https://jocular-ganache-73e5f7.netlify.app" target="_blank" class="project-link">
               Check it Out
             </a>
           </div>
