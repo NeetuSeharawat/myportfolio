@@ -1,7 +1,7 @@
 import React from "react";
 import ExpenseTracker from "../assets/ExpenseTracker.jpg";
 import Ecommerce from "../assets/Ecommerce.jpg";
-import mailbox from "../assets/mailbox.jpg";
+import Mailbox from "../assets/Mailbox.jpg";
 
 const Projects = () => {
   return (
@@ -48,8 +48,8 @@ const Projects = () => {
           </div>
           <div class="project-container project-card">
             <img
-              src={mailbox}
-              alt="mailbox"
+              src={Mailbox}
+              alt="Mailbox"
               loading="lazy"
               class="project-pic"
             />
