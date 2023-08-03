@@ -1,7 +1,7 @@
 import React from "react";
 import ExpenseTracker from "../assets/ExpenseTracker.jpg";
 import Ecommerce from "../assets/Ecommerce.jpg";
-import Mailbox from "../assets/Mailbox.jpg";
+import Mailbox from "../assets/MailBox.jpg";
 
 const Projects = () => {
   return (
