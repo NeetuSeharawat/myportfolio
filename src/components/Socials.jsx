@@ -1,8 +1,8 @@
-import React from 'react'
+
 import github from "../assets/github.gif";
 import linkedin from "../assets/linkedin.gif";
 
-const SocialMedia = () => {
+const Socials = () => {
   return (
       
       <div class="socials">
@@ -20,10 +20,8 @@ const SocialMedia = () => {
           loading="lazy"
           class="socicon"
       /></a>
-     
-     
     </div>
   )
 }
 
-export default SocialMedia;
+export default Socials;

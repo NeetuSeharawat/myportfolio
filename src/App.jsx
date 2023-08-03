@@ -4,7 +4,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import SocialMedia from "./components/socialMedia";
+import Socials from "./components/Socials";
 import Footer from "./components/Footer";
 
 
@@ -16,7 +16,7 @@ export default function App() {
       <Skills />
       <Projects />
       <Contact />
-      <SocialMedia />
+      <Socials />
       <Footer />
     </div>
   );
