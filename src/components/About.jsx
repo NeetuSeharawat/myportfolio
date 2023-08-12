@@ -4,27 +4,27 @@ import Pic from "../assets/Pic.png";
 const About = () => {
   return (
     <>
-      <div class="hero" id="about">
+      <div className="hero" id="about">
         <img
           src={Pic}
           alt="neetu"
           loading="lazy"
-          class="hero-img"
+          className="hero-img"
         />
 
-        <div class="bio animate__animated animate__shakeX">
-          <h2 class="bio-title">Hey, I'm Neetu </h2>
-          <p class="bio-text">
+        <div className="bio animate__animated animate__shakeX">
+          <h2 className="bio-title">Hey, I'm Neetu </h2>
+          <p className="bio-text">
             A self-taught
-            <span class="bold"> Front-end Developer </span>
+            <span className="bold"> Front-end Developer </span>
             with a Master's in Computer Applications and an
-            <span class="bold"> Open Source Contributor </span> from
+            <span className="bold"> Open Source Contributor </span> from
             Bangalore,India.
           </p>
         </div>
       </div>
 
-      <div class="more-about">
+      <div className="more-about">
         <h2>About Me</h2>
         <p>
           I enjoy taking complex problems and turning them into simple and
