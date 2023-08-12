@@ -25,35 +25,35 @@ const Contact = () => {
     e.target.reset();
   };
   return (
-    <div class="contact" id="contact">
+    <div className="contact" id="contact">
       <h2>Get In Touch With Me</h2>
-      <div class="contact-form-container">
-        <div class="contact-form">
+      <div className="contact-form-container">
+        <div className="contact-form">
          
           <form ref={form} onSubmit={sendEmail}>
-            <div class="form-control">
+            <div className="form-control">
               <label for="name">Name</label>
               <input
                 type="text"
                 id="name"
                 name="user_name"
                 placeholder="Enter Your Name"
-                class="input-field"
+                className="input-field"
                 required
               />
             </div>
-            <div class="form-control">
+            <div className="form-control">
               <label for="email">Email</label>
               <input
                 type="email"
                 id="email"
                 name="user_email"
                 placeholder="Enter Your Email"
-                class="input-field"
+                className="input-field"
                 required
               />
             </div>
-            <div class="form-control">
+            <div className="form-control">
               <label for="message">Message</label>
               <textarea
                 id="message"
@@ -61,7 +61,7 @@ const Contact = () => {
                 rows="10"
                 placeholder="Enter Your Message"
                 name="message"
-                class="input-field"
+                className="input-field"
                 required
               ></textarea>
             </div>
@@ -69,7 +69,7 @@ const Contact = () => {
               type="submit"
               value="Submit"
               id="submit-btn"
-              class="submit-btn">
+              className="submit-btn">
               Send Message
             </button>
           </form>
